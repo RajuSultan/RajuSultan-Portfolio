@@ -1,0 +1,75 @@
+.orange-color{
+    color:orange;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.container{
+    display: flex;
+    margin-bottom: 150px;
+    
+}
+.half-width{
+    padding-left: 2%;
+    width:50%;
+    margin-left: 4%;
+}
+.half-width img{
+    
+    width: 80%;
+    margin-top: 5%;
+}
+h1{
+    font-size: 50px;
+}
+.hire-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10%;
+    background-image: linear-gradient(orange, tomato);
+}
+.top-banner{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    padding-right:10%;
+}
+.Experiences{
+    width:50%;
+    margin: 3%;
+    box-shadow: 8px 10px 30px gray;
+    padding: 0px 10px;
+}
+.ex-background{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 2%;
+    
+}
+#br-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, tomato);
+    border-image-slice: 1;
+    
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+    
+}
+.ex-background h1{
+    margin-left: 25px;
+}
+footer p{
+    text-align: center;
+}
